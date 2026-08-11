@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK NEGERI 9 MEDAN - Kelompok 11</title>
+    <style>
+        body { font-family: Arial; margin: 0; background: #FFC0CB; } /* BACKGROUND PINK CERAH */
+        header { background: #FF69B4; color: white; padding: 20px; text-align: center; } /* HEADER PINK TUA */
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .container { width: 90%; margin: auto; background: white; color: black; padding: 20px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1); } /* CONTAINER PUTIH */
+        section { margin-bottom: 40px; }
+        h2 { color: #FF1493; border-bottom: 3px solid #FF69B4; padding-bottom: 5px; } /* JUDUL PINK TUA */
+        img { max-width: 100%; border-radius: 10px; margin: 10px 0; border: 3px solid #FFB6C1; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #FFB6C1; padding: 10px; text-align: left; }
+        th { background: #FF69B4; color: white; } 
+        .anggota { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        .card { background: #ADD8E6; color: black; padding: 15px; border-radius: 15px; width: 250px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.15); } /* CARD BIRU MUDA */
+        .card img { width: 120px; height: 120px; border-radius: 50%; border: 3px solid white; }
+        .card h3 { color: #0047AB; } /* NAMA BIRU TUA */
+        footer { background: #FF69B4; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SMK NEGERI 9 MEDAN</h1>
+        <p>Website Tugas Kelompok 11 - Mata Pelajaran: MP</p>
+        <nav>
+            <a href="#beranda">Beranda</a>
+            <a href="#profil">Profil Sekolah</a>
+            <a href="#fasilitas">Fasilitas</a>
+            <a href="#jurusan">Jurusan</a>
+            <a href="#kelompok">Anggota Kelompok</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <!-- BERANDA -->
+        <section id="beranda">
+            <h2>WELCOME</h2>
+            <img src="https://i.postimg.cc/d3qgmtxk/IMG-20260811-WA0022.jpg" alt="Foto Sekolah">
+            <p>Website ini dibuat oleh <b>Kelompok 11</b> untuk memenuhi tugas Mata Pelajaran Front-End. 
+            SMK Negeri 9 Medan adalah sekolah kejuruan terbaik di Sumatera Utara yang fokus mencetak lulusan siap kerja.</p>
+        </section>
+
+        <!-- PROFIL SEKOLAH -->
+        <section id="profil">
+            <h2>Profil Sekolah</h2>
+            <table>
+                <tr><th>Nama Sekolah</th><td>SMK Negeri 9 Medan</td></tr>
+                <tr><th>NPSN</th><td>10202589</td></tr>
+                <tr><th>Alamat</th><td>Jl. PATRIOT 20 A MEDAN</td></tr>
+                <tr><th>Akreditasi</th><td>A</td></tr>
+                <tr><th>Website</th><td><a href="https://smkn9medan.sch.id" target="_blank">smkn9medan.sch.id</a></td></tr>
+            </table>
+            <h3>Visi & Misi</h3>
+            <p><b>Visi:</b> Menjadi SMK Pusat Keunggulan yang menghasilkan lulusan berkompeten dan berkarakter</p>
+            <p><b>Misi:</b> Menyelenggarakan pendidikan vokasi berbasis industri dan teknologi</p>
+        </section>
+
+        <!-- FASILITAS -->
+        <section id="fasilitas">
+            <h2>Fasilitas Sekolah</h2>
+            <img src="https://i.postimg.cc/yxY8GKbh/Screenshot-20260811-125038.jpg" alt="Lab Komputer" width="300">
+            <img src="https://i.postimg.cc/Wbmh19Mz/IMG-20260811-130114-387.jpg" alt="Ruang Kelas" width="300">
+            <img src="https://i.postimg.cc/ZqvBP69F/Screenshot-20260811-132148.jpg" alt="Perpustakaan" width="300">
+            <img src="https://i.postimg.cc/900jTYMs/IMG-20260811-132502-237.jpg" alt="Lapangan" width="300">
+            <img src="https://i.postimg.cc/Qd1PPyWt/dbbb6d5d5e4434c44a0aa7e64609545b.jpg" alt="Masjid" width="300">
+            <ul>
+                <li>Laboratorium Komputer & Jaringan</li>
+                <li>Ruang Kelas</li>
+                <li>Perpustakaan</li>
+                <li>Lapangan Olahraga</li>
+                <li>Masjid & UKS</li>
+            </ul>
+        </section>
+
+        <!-- JURUSAN -->
+        <section id="jurusan">
+            <h2>Jurusan di SMKN 9 Medan</h2>
+            <table>
+                <tr><th>No</th><th>Kode Jurusan</th><th>Nama Jurusan</th></tr>
+                <tr><td>1</td><td>RPL</td><td>Rekayasa Perangkat Lunak</td></tr>
+                <tr><td>2</td><td>TKJ</td><td>Teknik Jaringan Komputer dan Telekomunikasi</td></tr>
+                <tr><td>3</td><td>DKV</td><td>Desain Komunikasi Visual</td></tr>
+                <tr><td>4</td><td>PSPT</td><td>Produksi Siaran Program Televisi</td></tr>
+            </table>
+        </section>
+
+        <!-- ANGGOTA KELOMPOK -->
+        <section id="kelompok">
+            <h2>Anggota Kelompok 11</h2>
+            <div class="anggota">
+                <div class="card">
+                    <img src="https://i.pravatar.cc/120?img=1" alt="Anggota 1">
+                    <h3>Fanny</h3>
+                    <p>NIS: 12345</p>
+                    <p>Job: Desain & Content</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.postimg.cc/j56K6jR7/675ccdf559f451fcff9f70b679b6b3ad.jpg" alt="Anggota 2">
+                    <h3>Meilani</h3>
+                    <p>NIS: 12346</p>
+                    <p>Job: Riset Data</p>
+                </div>
+                <div class="card">
+                    <img src="https://i.postimg.cc/jdLcBKXP/IMG-20260706-WA0013.jpg" alt="Anggota 3">
+                    <h3>SURYA WIDJAYA</h3>
+                    <p>NIS: 12347</p>
+                    <p>Job: Codinger</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Kelompok 11 - SMK Negeri 9 Medan</p>
+        <p>Hubungi: <a href="mailto:kelompok11@gmail.com" style="color:yellow;">kelompok11@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
